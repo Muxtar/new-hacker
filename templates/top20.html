@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block style %}
+
+<link rel="stylesheet" href="{% static 'css/activist-hackers.css' %}">
+<link rel="stylesheet" href="{% static 'css/top20.css' %}">
+
+{% endblock style %}
+
+{% block main %}
+    {% include 'table2.html' %}
+{% endblock main %}
